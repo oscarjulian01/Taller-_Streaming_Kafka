@@ -1,0 +1,15 @@
+# Dataset (descargar aparte)
+online_retail_II.csv
+
+# Binarios de Hadoop para Windows
+hadoop/
+
+# Archivos temporales de Spark Streaming
+checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
