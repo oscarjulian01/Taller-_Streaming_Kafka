@@ -1,15 +1,23 @@
-# Dataset (descargar aparte)
+# Dataset (descargar aparte, no subir a GitHub - pesa ~95 MB)
 online_retail_II.csv
+*.csv
 
-# Binarios de Hadoop para Windows
+# Binarios locales de Hadoop para Windows
 hadoop/
 
-# Archivos temporales de Spark Streaming
+# Checkpoints y carpetas generadas por Spark Streaming
 checkpoints/
+stream_checkpoint/
+stream_input/
+datos_streaming/
 spark-warehouse/
 metastore_db/
 derby.log
 
-# Python / Jupyter
+# Python y Jupyter
 __pycache__/
 .ipynb_checkpoints/
+*.pyc
+
+# Archivos temporales o de entrega
+*.docx
